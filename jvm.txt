@@ -1,0 +1,2 @@
+-Dlogging.console.level=debug
+-Ddubbo.application.logger=slf4j
