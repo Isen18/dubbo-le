@@ -7,4 +7,6 @@
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <!--自我消费-->
+    <dubbo:reference id="userProviderConsumer" interface="com.isen.le.dubbo.api.provider.UserProvider" />
 </beans>

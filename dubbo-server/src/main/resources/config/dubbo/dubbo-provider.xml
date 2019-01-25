@@ -9,4 +9,6 @@
 
     <dubbo:service interface="com.isen.le.dubbo.api.provider.UserProvider" ref="userProvider" />
 
+    <dubbo:service interface="com.isen.le.dubbo.api.provider.ValidationService" ref="validationService" validation="true" />
+
 </beans>

@@ -9,4 +9,5 @@
 
     <dubbo:reference id="userProvider" interface="com.isen.le.dubbo.api.provider.UserProvider" />
 
+    <dubbo:reference id="validationService" interface="com.isen.le.dubbo.api.provider.ValidationService" validation="false" />
 </beans>

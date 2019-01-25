@@ -15,4 +15,11 @@ public interface UserProvider {
      * @return
      */
     User getUser(Integer id);
+
+    /**
+     * 根据用户id获取用户
+     * @param id
+     * @return
+     */
+    User getUser(Long id);
 }

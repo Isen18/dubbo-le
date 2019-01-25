@@ -10,10 +10,19 @@ import com.isen.le.dubbo.api.provider.UserProvider;
  */
 public class UserProviderImpl implements UserProvider {
 
+    @Override
     public User getUser(Integer id) {
         User user = new User();
         user.setId(1);
         user.setName("isen");
+        return user;
+    }
+
+    @Override
+    public User getUser(Long id) {
+        User user = new User();
+        user.setId(1);
+        user.setName("zhangsan");
         return user;
     }
 }

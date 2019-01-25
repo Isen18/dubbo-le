@@ -8,4 +8,6 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <bean id="userProvider" class="com.isen.le.dubbo.server.provider.UserProviderImpl"/>
+
+    <bean id="validationService" class="com.isen.le.dubbo.server.provider.ValidationServiceImpl"/>
 </beans>
