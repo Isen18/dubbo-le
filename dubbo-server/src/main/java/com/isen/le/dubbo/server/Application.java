@@ -16,6 +16,7 @@ public class Application {
     private final static Logger LOGGER = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) throws IOException {
+        new EmbeddedZooKeeper(2181, false).start();
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("config/spring/*.xml", "config/dubbo/*.xml");
         context.start();
         LOGGER.info("dubbo-server启动成功...");

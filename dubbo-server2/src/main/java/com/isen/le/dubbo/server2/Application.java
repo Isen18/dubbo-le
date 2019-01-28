@@ -24,6 +24,6 @@ public class Application {
 
         User user = userProvider.getUser(2L);
         LOGGER.info(user.toString());
-        System.in.read();
+//        System.in.read();
     }
 }
